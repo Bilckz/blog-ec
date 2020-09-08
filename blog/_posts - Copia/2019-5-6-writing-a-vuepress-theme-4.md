@@ -6,6 +6,7 @@ tag:
   - vuepress
 author: ULIVZ
 location: Shanghai  
+image: 'https://ichef.bbci.co.uk/news/660/cpsprodpb/3CC7/production/_112395551_eso2008a.jpg'
 ---
 
 # Writing a VuePress theme

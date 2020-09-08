@@ -468,3 +468,7 @@ body {
 .content__default ul li a:hover {
   text-decoration: underline;
 }
+
+.banner {
+  background-image: url("../../public/assets/img/trabalho-dia-internacional-da-mulher-comunicação-foto-destaque.png");
+}

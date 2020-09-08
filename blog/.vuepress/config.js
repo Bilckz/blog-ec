@@ -19,7 +19,7 @@ module.exports = {
     social: {
       twitter: "https://twitter.com/gabrielwilleman",
       linkedin: "https://www.linkedin.com/in/gabrielwillemann",
-      github: "https://github.com/gabrielwillemann/",
+      github: "https://github.com/",
     },
     tags: {
       vuejs: "Vue.js",

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>VSFaba</h1>
+    <banner>
+    <h1>Teste</h1>
     <ArticlePreview
       v-for="page in $pagination.pages"
       :key="page.path"
@@ -20,6 +21,7 @@
 <script>
 import ArticlePreview from "@theme/components/ArticlePreview.vue";
 import Pagination from "@theme/components/Pagination.vue";
+import Banner from "@theme/components/Banner.vue"
 
 export default {
   name: "Index",

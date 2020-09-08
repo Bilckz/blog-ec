@@ -1,13 +1,13 @@
 ---
-date: 2018-11-7
+date: 2020-09-01
 tag: 
   - frontmatter
   - vuepress
-author: ULIVZ
-location: Hangzhou  
+author: FEAN
+image: 'https://cdn.pixabay.com/photo/2019/03/20/00/57/the-seamstress-4067389_960_720.jpg' 
 ---
 
-# Front Matter in VuePress
+# Costureira 
 
 Any markdown file that contains a YAML front matter block will be processed by [gray-matter](https://github.com/jonschlinkert/gray-matter). The front matter must be the first thing in the markdown file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:
 
