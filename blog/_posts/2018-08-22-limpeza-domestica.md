@@ -5,6 +5,7 @@ tag:
   - vuepress
 author: FEAN
 image: 'https://cdn.pixabay.com/photo/2019/04/02/18/16/cleaning-4098410_960_720.jpg'
+favorite: true
 ---
 
 # Serviços de limpeza doméstica

@@ -42,7 +42,7 @@ body {
 
 .content {
   margin-top: 1rem;
-  display: grid;
+  /*display: grid;*/
   grid-gap: 1rem;
   min-height: calc(100vh - 10rem);
 }
@@ -470,5 +470,22 @@ body {
 }
 
 .banner {
-  background-image: url("../../public/assets/img/trabalho-dia-internacional-da-mulher-comunicação-foto-destaque.png");
+  background-image:linear-gradient(to right,rgba(100, 53, 201, 1),rgba(97, 57, 200, 0.69), rgba(0, 181, 173, 0.71)),  url("../../public/assets/img/trabalho-dia-internacional-da-mulher-comunicação-foto-destaque.png");
+  background-size: contain
+}
+
+.banner h1{
+  text-align: center;
+  color: white;
+}
+
+.posts{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posts article{
+  width: 30%;
+  
 }

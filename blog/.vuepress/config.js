@@ -10,8 +10,9 @@ module.exports = {
       },
     },
     nav: [
-      { label: "About the author", path: "/about", icon: "person" },
-      { label: "Tags", path: "/tag", icon: "category" },
+      { label: "Home", path: "/about", icon: "person" },
+      { label: "Categorias", path: "/tag", icon: "category" },
+      { label: "Sobre", path: "/tag", icon: "category" },
     ],
     footer: {
       text: "Text in footer",

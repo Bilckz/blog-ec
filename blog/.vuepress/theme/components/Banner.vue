@@ -1,11 +1,11 @@
 <template>
     <div class="banner">
-        <button type="button">Click Me!</button>
-    <div>
+        <h1>Programa Energia Cidadã</h1>
+    </div>
 </template>
 
 <script>
 export default {
-  name: "Banner",
+  name: "Banner"
 };
 </script>

@@ -5,6 +5,7 @@ tag:
   - vuepress
 author: FEAN
 image: 'https://cdn.pixabay.com/photo/2019/03/20/00/57/the-seamstress-4067389_960_720.jpg' 
+favorite: true
 ---
 
 # Costureira 
