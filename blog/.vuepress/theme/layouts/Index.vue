@@ -3,7 +3,9 @@
     <Banner />
 
     <h1>Teste</h1>
-    <Favorite />
+    <div class="favorite">
+     <Favorite />
+    </div>
     <div class="posts">
       <ArticlePreview
         v-for="page in $pagination.pages"

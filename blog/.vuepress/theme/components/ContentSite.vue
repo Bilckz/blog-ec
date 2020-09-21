@@ -2,7 +2,6 @@
   <div class="content">
     <div class="spacer-left"></div>
     <Main />
-    <SideBar />
     <div class="spacer-right"></div>
   </div>
 </template>
