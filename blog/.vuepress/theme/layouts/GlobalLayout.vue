@@ -2,7 +2,7 @@
   <div>
     <Header />
     <ContentSite />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

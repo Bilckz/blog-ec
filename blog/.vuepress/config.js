@@ -1,5 +1,5 @@
 module.exports = {
-  title: "My Blog",
+  // title: "My Blog",
   // theme: 'vuepress-theme-material-free',
   themeConfig: {
     logo: "/assets/img/my-logo.png",
@@ -15,7 +15,7 @@ module.exports = {
       { label: "Sobre", path: "/tag", icon: "category" },
     ],
     footer: {
-      text: "Text in footer",
+      // text: "Text in footer",
     },
     social: {
       twitter: "https://twitter.com/gabrielwilleman",
@@ -23,9 +23,9 @@ module.exports = {
       github: "https://github.com/",
     },
     tags: {
-      vuejs: "Vue.js",
-      "ruby-on-rails": "Ruby on Rails",
-      nodejs: "Node.js",
+      'frontmatter': "Front Matter",
+      'vuepress': "VuePress",
+      'nodejs': "Node.js",
     },
     locales: {
       default: "en", // or 'pt-BR'

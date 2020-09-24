@@ -1,7 +1,6 @@
 <template>
-    <div class="card mb-2 p-1" v-if="favoritePosts.length > 0">
-      <template v-for="page in favoritePosts">
-        <div class="border-bottom" v-if="page != favoritePosts[0]"></div>
+    <div v-if="favoritePosts.length > 0" class="favorite">
+      <template v-for="page in favoritePosts.slice(0, 2)">
         <ArticleSmallPreview :image="page.frontmatter.image" :title="page.title" :path="page.path" />
       </template>
     </div>

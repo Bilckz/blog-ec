@@ -1,14 +1,10 @@
 <template>
   <div>
     <Banner />
-
-    <h1>Teste</h1>
-    <div class="favorite">
-     <Favorite />
-    </div>
+    <Favorite />
     <div class="posts">
       <ArticlePreview
-        v-for="page in $pagination.pages"
+        v-for="page in $pagination.pages.slice(0, 3)"
         :key="page.path"
         :path="page.path"
         :title="page.title"
