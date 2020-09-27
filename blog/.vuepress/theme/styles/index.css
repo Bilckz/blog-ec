@@ -190,8 +190,16 @@ body {
   margin: 1rem;
 }
 
+.m-2 {
+  margin: 2rem;
+}
+
 .mt-1 {
   margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
 }
 
 .mt-0-8 {
@@ -503,4 +511,11 @@ body {
 
 .favorite > div {
   width: 50%;
+}
+
+.img-post{
+  top: 1456px;
+  left: 329px;
+  width: 354px;
+  height: 354px;
 }

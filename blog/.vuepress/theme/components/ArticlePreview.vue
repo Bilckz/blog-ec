@@ -1,8 +1,8 @@
 <template>
-  <article class="card mb-1" itemscope itemtype="http://schema.org/TechArticle">
+  <article class="card m-1" itemscope itemtype="http://schema.org/TechArticle">
     <div>
       <router-link class="text-decoration-none text-black-3" :to="{ path: path }">
-        <img class="image-100" :src="image"  itemprop="image" />
+        <img class="img-post" :src="image"  itemprop="image" />
       </router-link>
     </div>
     <div class="p-1">

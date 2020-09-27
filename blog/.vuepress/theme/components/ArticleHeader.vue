@@ -4,7 +4,9 @@
     <Breadcrumb :mainTag="tags[0]" :title="title" />
     <ArticleInfo :tags="tags" :date="date" :author="author" :lastUpdated="lastUpdated" />
     <div hidden>
-      <img itemprop="image" :src="image" />
+      <div class="img-post">
+        <img  itemprop="image" :src="image" />
+      </div>
       <p itemprop="abstract">{{ description }}</p>
     </div>
   </header>

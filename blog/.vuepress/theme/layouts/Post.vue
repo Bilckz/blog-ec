@@ -1,5 +1,6 @@
 <template>
   <article itemscope itemtype="http://schema.org/TechArticle">
+    
     <div class="card mb-1 p-1-5">
       <ArticleHeader
         :title="$page.title"
